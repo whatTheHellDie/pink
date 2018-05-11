@@ -1,19 +1,55 @@
-img{display: inline-block;}
-
-
-	
-
+img {
+    display: inline-block;
+}
 
 /*我的积分*/
-.jifen{padding-left: .23rem;line-height: .72rem;font-size: .19rem;color: #999;background: #ebebeb;}
-.jifen_change .title{font-size: .19rem;color: #999;padding-left: .23rem;line-height: .64rem;}
-.jifen_change li{position: relative;margin:0 .25rem .1rem;height: .94rem;background: #EBEBEB;}
-.jifen_change .name{font-size: .19rem;color: #999;padding-left: .18rem;padding-top: .12rem;}
-.jifen_change .jitime{font-size: .17rem;color: #999;padding-left: .18rem;padding-top: .08rem;}
-.jifen_change .jilu{color: #808080;font-size: .17rem;padding-top: .73rem;padding-right: .25rem;text-align: right;}
 
-.jifen_button{
-	color: #fff;
+.jifen {
+    padding-left: .23rem;
+    line-height: .72rem;
+    font-size: .19rem;
+    color: #999;
+    background: #ebebeb;
+}
+
+.jifen_change .title {
+    font-size: .19rem;
+    color: #999;
+    padding-left: .23rem;
+    line-height: .64rem;
+}
+
+.jifen_change li {
+    position: relative;
+    margin: 0 .25rem .1rem;
+    height: .94rem;
+    background: #EBEBEB;
+}
+
+.jifen_change .name {
+    font-size: .19rem;
+    color: #999;
+    padding-left: .18rem;
+    padding-top: .12rem;
+}
+
+.jifen_change .jitime {
+    font-size: .17rem;
+    color: #999;
+    padding-left: .18rem;
+    padding-top: .08rem;
+}
+
+.jifen_change .jilu {
+    color: #808080;
+    font-size: .17rem;
+    padding-top: .73rem;
+    padding-right: .25rem;
+    text-align: right;
+}
+
+.jifen_button {
+    color: #fff;
     background: #ea5f7d;
     margin-right: .23rem;
     width: .88rem;
@@ -25,3 +61,10 @@ img{display: inline-block;}
     border-radius: 5px;
     margin-top: .2rem;
 }
+.add_jifen{    position: absolute;
+    font-size: .2rem;
+    right: .2rem;
+    top: .22rem;
+    color: #9a9a99;
+   
+    }

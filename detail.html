@@ -1,202 +1,177 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
-		<link rel="stylesheet" type="text/css" href="css/detail.css"/>
-		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/hhSwipe.js" type="text/javascript" charset="utf-8"></script>
-		<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=0.5,maximum-scale=0.5,user-scalable=no" />
-		<meta name="format-detection" content="telephone=no">
-<script type="text/javascript">
-			
-	(function (doc, win) {
-  var docEl = doc.documentElement,
-    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-    recalc = function () {
-      var clientWidth = docEl.clientWidth;
-      if (!clientWidth) return;
-      docEl.style.fontSize = 50 * (clientWidth / 320) + 'px';
-    };
- 
-  if (!doc.addEventListener) return;
-  win.addEventListener(resizeEvt, recalc, false);
-  doc.addEventListener('DOMContentLoaded', recalc, false);
-})(document, window);
-</script>
-	</head>
-	<body>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/detail.css" />
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/hhSwipe.js" type="text/javascript" charset="utf-8"></script>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=0.5,maximum-scale=0.5,user-scalable=no"
+	/>
+	<meta name="format-detection" content="telephone=no">
+	<script src="js/reset.js"></script>
+</head>
+
+<body>
 	<div class="head">商品详情
-	<img src="img/back.png" class="return_img" onClick="javascript:history.back(-1);" alt="" />
-			
-		</div>
-		<div class="wrap" id="top">
-			<!--轮播图开始--> 
-		  <div class="banner">
+		<img src="img/back.png" class="return_img" onClick="javascript:history.back(-1);" alt="" />
+
+	</div>
+	<div class="wrap" id="top">
+		<!--轮播图开始-->
+		<div class="banner">
 			<article>
-			  <div class="scroll_box" id="scroll_img">
-				<ul class="scroll_wrap">
-				  <li>
-					<a href="#">
-						<img class="scroll_img" src="img/detail_content.png" width="100%">
-					</a>
-					</li>
-				  <li>
-					<a href="#"><img class="scroll_img" src="img/detail_content.png" width="100%" ></a></li>
-				  </ul>
+				<div class="scroll_box" id="scroll_img">
+					<ul class="scroll_wrap">
+						<li>
+							<a href="#">
+								<img class="scroll_img" src="img/detail_content.png" width="100%">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img class="scroll_img" src="img/detail_content.png" width="100%">
+							</a>
+						</li>
+					</ul>
 				</div>
-			  
-			 <!--scroll-->
-			 <div class="scroll relative">
-				  <ul class="scroll_position" id='scroll_position'>
-					  <li class="on"><a href="javascript:void(0);"></a></li>
-					  <li><a href="javascript:void(0);"></a></li>
-				  </ul>
-			 </div>
-			  <!--scroll-->
-			
+
+				<!--scroll-->
+				<div class="scroll relative">
+					<ul class="scroll_position" id='scroll_position'>
+						<li class="on">
+							<a href="javascript:void(0);"></a>
+						</li>
+						<li>
+							<a href="javascript:void(0);"></a>
+						</li>
+					</ul>
+				</div>
+				<!--scroll-->
+
 			</article>
-		
+
 		</div>
 		<!--轮播图结束-->
-		
+
 		<div class="huodong clearfix">
-			<a href="#"><span class="tip_name">会员</span><span class="tip_content">新注册会员可获得20元优惠券</span></a>
+			<a href="#">
+				<span class="tip_name">会员</span>
+				<span class="tip_content">新注册会员可获得20元优惠券</span>
+			</a>
 		</div>
-		<div class="item_price clearfix"><div class="price">￥68</div><div class="kuaidi">快递：0.00</div></div>
+		<div class="item_price clearfix">
+			<div class="price">￥68</div>
+			<div class="kuaidi">快递：0.00</div>
+		</div>
 		<div class="title_detail">
 			<div class="title">莲子雪耳桃花羹</div>
-		<!--商品详情-->
-		<div class="content">
-			
-		</div>
-		<!--商品详情结束-->
+			<!--商品详情-->
+			<div class="content">
+
+			</div>
+			<!--商品详情结束-->
 		</div>
 		<!--下方栏-->
 		<div class="yonghu">
-			<span>15977131791 | <a href="#">退出</a></span><a href="#top" class="back_top"><img src="img/back_top.png" alt="" />返回顶部</a>
+			<span>15977131791 |
+				<a href="#">退出</a>
+			</span>
+			<a href="#top" class="back_top">
+				<img src="img/back_top.png" alt="" />返回顶部</a>
 		</div>
 		<div class="nav">
 			<ul class="clearfix">
-				<li><a href="#">返回首页</a>|</li>
-				<li><a href="#">配送范围</a>|</li>
-				<li><a href="#">我的订单</a>|</li>
-				<li><a href="#">订购指南</a></li>
-				<li><a href="#">企业客户</a>|</li>
-				<li><a href="#">隐私条例</a>|</li>
-				<li><a href="#">合作指南</a>|</li>
-				<li><a href="#">品牌故事</a></li>
-				
+				<li>
+					<a href="#">返回首页</a>|</li>
+				<li>
+					<a href="#">配送范围</a>|</li>
+				<li>
+					<a href="#">我的订单</a>|</li>
+				<li>
+					<a href="#">订购指南</a>
+				</li>
+				<li>
+					<a href="#">企业客户</a>|</li>
+				<li>
+					<a href="#">隐私条例</a>|</li>
+				<li>
+					<a href="#">合作指南</a>|</li>
+				<li>
+					<a href="#">品牌故事</a>
+				</li>
+
 			</ul>
 		</div>
-		
+
 		<div class="kefu ">
 			<ul class="clearfix">
-				<li><a href="#"><img src="img/kefu.png"/></a></li>
-				<li><a href="#" class="dianhua"><img src="img/dianhua_kefu.png"/></a></li>
-			</ul>
-			<div class="time">客服接待时间  周一至周日  9:00-20:30  桂ICP备12002305号-1</div>
-			<div class="banben">
-				<span><a href="#">电脑版</a> | <a href="#">手机版</a></span>
-			</div>
-		</div>
-		
-		</div>
-		<div class="guige">
-			<img src="img/close.png" alt="" class="close" />
-			<div class="list">
-		<ul>
-			<li class="clearfix">
-			<img src="img/1.png" alt="" />
-				<div class="information">
-				<div class="title">莲子雪耳桃花羹</div>
-				<div class="stitle">精选食材：莲子、雪耳、桃胶 、冰糖</div>
-				<div class="price">￥65</div>
-				</div>
+				<li>
+					<a href="#">
+						<img src="img/kefu.png" />
+					</a>
 				</li>
-				</ul>
-		</div>
-			<div class="guige_title">请选择产品规格</div>
-			<div class="guige_content clearfix">
-				<div class="guige_button active">雪耳雪莲桃花羹</div>
-				<div class="guige_button ">雪耳雪莲桃花羹</div>
-				
-				<div class="guige_button ">雪耳雪莲桃花羹</div>
-				<div class="guige_button ">雪耳雪莲桃花羹</div>
-				<div class="guige_button ">雪耳雪莲桃花羹</div>
-				<div class="guige_button ">雪耳雪莲桃花羹</div>
-				<div class="guige_button ">雪耳雪莲桃花羹</div>
-				<div class="guige_button ">雪耳雪莲桃花羹</div>
-				<div class="guige_button ">雪耳雪莲桃花羹</div>
-				<div class="guige_button ">雪耳雪莲桃花羹</div>
+				<li>
+					<a href="#" class="dianhua">
+						<img src="img/dianhua_kefu.png" />
+					</a>
+				</li>
+			</ul>
+			<div class="time">客服接待时间 周一至周日 9:00-20:30 桂ICP备12002305号-1</div>
+			<div class="banben">
+				<span>
+					<a href="#">电脑版</a> |
+					<a href="#">手机版</a>
+				</span>
 			</div>
-		<div class="add_reduce"><img src="img/add_number.png" class="add" alt="" /><div class="number">2</div><img src="img/reduce_number.png" alt="" class="reduce" /></div>
 		</div>
-		<div class="buy_column clearfix">
-			<div class="buy_now">立即订购</div><div class="add_cart">加入购物车</div>
-			<div class="next"><a href="checkout.html">下一步</a></div>
+
+	</div>
+	<div class="guige">
+		<img src="img/close.png" alt="" class="close" />
+		<div class="list">
+			<ul>
+				<li class="clearfix">
+					<img src="img/1.png" alt="" />
+					<div class="information">
+						<div class="title">莲子雪耳桃花羹</div>
+						<div class="stitle">精选食材：莲子、雪耳、桃胶 、冰糖</div>
+						<div class="price">￥65</div>
+					</div>
+				</li>
+			</ul>
 		</div>
-		
-				<script type="text/javascript">
-				var cc
-				window.onload=function(){
-					cc=-($(".guige").height());
-					$(".guige").css("bottom","-4.8rem")
-				}
-					$(function(){
-						 
-						
-						//加入购物车
-						$(".buy_now").click(function(){
-							$(".guige").show();
-							$(".buy_now").hide()
-							$(".add_cart").hide()
-							$(".next").delay(1500).css("display","block");
-							$(".guige").css({"bottom":"0.88rem","opacity":"1"})
-						})
-						$(".add_cart").click(function(){
-							$(".guige").show();
-							$(".buy_now").hide()
-							$(".add_cart").hide()
-							$(".next").delay(1500).css("display","block");
-							$(".guige").css({"bottom":"0.88rem","opacity":"1"})
-							
-						})
-						$(".close").click(function(){
-							$(".buy_now").show()
-							$(".add_cart").show()
-							$(".next").hide();
-							$(".guige").css({"bottom":"-4.8rem","opacity":"0"})
-						})
-						//单选按钮
-						$(".checked .check_img").click(function(){
-							if($(this).attr("src")=="img/check.png"){
-							$(this).attr("src","img/checked.png")
-							$(this).parent().siblings(".checked").children(".check_img").attr("src","img/check.png")
-							}
-							else{
-								$(this).attr("src","img/check.png");
-								$(this).parent().siblings(".checked").children(".check_img").attr("src","img/check.png");
-								
-								}
-									  								
-						})
-					})
-					//adv广告轮播
- 	var slider = Swipe(document.getElementById('scroll_img'), {
-		auto: 3000,
-		continuous: true,
-		callback: function(pos) {
-			var i = bullets.length;
-			while (i--) {
-				bullets[i].className = ' ';
-			}
-			bullets[pos].className = 'on';
-		}
-	});
-	var bullets = document.getElementById('scroll_position').getElementsByTagName('li');
-				</script>
-	</body>
-	
+		<div class="guige_title">请选择产品规格</div>
+		<div class="guige_content clearfix">
+			<div class="guige_button active">雪耳雪莲桃花羹</div>
+			<div class="guige_button ">雪耳雪莲桃花羹</div>
+
+			<div class="guige_button ">雪耳雪莲桃花羹</div>
+			<div class="guige_button ">雪耳雪莲桃花羹</div>
+			<div class="guige_button ">雪耳雪莲桃花羹</div>
+			<div class="guige_button ">雪耳雪莲桃花羹</div>
+			<div class="guige_button ">雪耳雪莲桃花羹</div>
+			<div class="guige_button ">雪耳雪莲桃花羹</div>
+			<div class="guige_button ">雪耳雪莲桃花羹</div>
+			<div class="guige_button ">雪耳雪莲桃花羹</div>
+		</div>
+		<div class="add_reduce">
+			<img src="img/add_number.png" class="add" alt="" />
+			<div class="number">2</div>
+			<img src="img/reduce_number.png" alt="" class="reduce" />
+		</div>
+	</div>
+	<div class="buy_column clearfix">
+		<div class="buy_now">立即订购</div>
+		<div class="add_cart">加入购物车</div>
+		<div class="next">
+			<a href="checkout.html">下一步</a>
+		</div>
+	</div>
+
+	<script src="js/detail.js"></script>
+</body>
+
 </html>

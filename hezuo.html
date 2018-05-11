@@ -1,139 +1,161 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
 
-		<link rel="stylesheet" type="text/css" href="css/reset.css" />
-		<link rel="stylesheet" type="text/css" href="css/hezuo.css" />
-		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript">
-			(function(doc, win) {
-				var docEl = doc.documentElement,
-					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-					recalc = function() {
-						var clientWidth = docEl.clientWidth;
-						if(!clientWidth) return;
-						docEl.style.fontSize = 50 * (clientWidth / 320) + 'px';
-					};
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/hezuo.css" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/reset.js"></script>
 
-				if(!doc.addEventListener) return;
-				win.addEventListener(resizeEvt, recalc, false);
-				doc.addEventListener('DOMContentLoaded', recalc, false);
-			})(document, window);
-			
-		</script>
-	</head>
+</head>
 
-	<body>
-		<div class="head">积分兑换
-			<img src="img/back.png" class="return_img" onClick="javascript:history.back(-1);" alt="" />
-			
-		</div>
-		<div class="wrap">
-			<div class="hezuo">
-				<p class="title">企业合作</p>
-				<div class="detail">我们将在全市选取100家企业！完成以下报名表，即有机会被
-选中获得免费的<a href="#">【企业合作体验】</a>，包括
-<div>·健康轻食试吃；</div>
-<div>·趣味营养沙龙；</div>
-<div>·办公室健身体验；</div>
-				</div>
-				<div class="form_wrap">
-					<div class="text_wrap">
-						<p>您的姓名  
-							<span>*</span></p>
-						<input type="text" />
-					</div>
-				
-					<div class="text_wrap">
-						<p>您的手机号码
-							<span>*</span></p>
-						<input type="text" />
-					</div>
-					<div class="text_wrap">
-						<p>您的公司名称
-							<span>*</span></p>
-						<input type="text" />
-					</div>
-					<div class="text_wrap">
-						<p>您的公司名称
-							<span>*</span></p>
-							<div class="choose_list">
-								<ul>
-									<li><img src="img/check.png" class="check_img" alt="" />1~10人</li>
-									<li><img src="img/check.png" class="check_img" alt="" />10~49人</li>
-									<li><img src="img/check.png" class="check_img" alt="" />50~99人</li>
-									<li><img src="img/check.png" class="check_img" alt="" />100~199人</li>
-									<li><img src="img/check.png" class="check_img" alt="" />200人以上</li>
-								</ul>
-							</div>
-					</div>
-					<div class="text_wrap">
-						<p>您的公司所在地址？  
-							<span>*</span></p>
-						<textarea name="" rows="" cols=""> </textarea>
-					</div>
-					<div class="text_wrap">
-						<p>一句话描述您的公司经营业务？
-							<span>*</span></p>
-						<textarea name="" rows="" cols=""> </textarea>
-					</div>
-					<div class="text_wrap">
-						<p>您在公司的职位？
-							<span>*</span></p>
-						<textarea name="" rows="" cols=""> </textarea>
-					</div>
-						</div>
-						<a class="tijiao" href="#">提交</a>
-						<div style="height: 1px;margin-bottom: .12rem;"></div>
-				</div>
-				
-		</div>
-<div class="yonghu">
-			<span>登录 | <a href="#">注册</a></span><a href="#top" class="back_top"><img src="img/back_top.png" alt="" />返回顶部</a>
-		</div>
-		<div class="nav">
-			<ul class="clearfix">
-				<li><a href="#">返回首页</a>|</li>
-				<li><a href="#">配送范围</a>|</li>
-				<li><a href="#">我的订单</a>|</li>
-				<li><a href="#">订购指南</a>|</li>
-				<li><a href="#">企业客户</a>|</li>
-				<li><a href="#">隐私条例</a>|</li>
-				<li><a href="#">合作指南</a>|</li>
-				<li><a href="#">品牌故事</a></li>
-				
-			</ul>
-		</div>
-		<div class="kefu ">
-			<ul class="clearfix">
-				<li><a href="#"><img src="img/kefu.png"/></a></li>
-				<li><a href="#" class="dianhua"><img src="img/dianhua_kefu.png"/></a></li>
-			</ul>
-			<div class="time">客服接待时间  周一至周日  9:00-20:30  桂ICP备12002305号-1</div>
-			<div class="banben">
-				<span><a href="#">电脑版</a> | <a href="#">手机版</a></span>
+<body>
+	<div class="head">积分兑换
+		<img src="img/back.png" class="return_img" onClick="javascript:history.back(-1);" alt="" />
+
+	</div>
+	<div class="wrap">
+		<div class="hezuo">
+			<p class="title">企业合作</p>
+			<div class="detail">我们将在全市选取100家企业！完成以下报名表，即有机会被 选中获得免费的
+				<a href="#">【企业合作体验】</a>，包括
+				<div>·健康轻食试吃；</div>
+				<div>·趣味营养沙龙；</div>
+				<div>·办公室健身体验；</div>
 			</div>
+			<div class="form_wrap">
+				<div class="text_wrap">
+					<p>您的姓名
+						<span>*</span>
+					</p>
+					<input type="text" />
+				</div>
+
+				<div class="text_wrap">
+					<p>您的手机号码
+						<span>*</span>
+					</p>
+					<input type="text" />
+				</div>
+				<div class="text_wrap">
+					<p>您的公司名称
+						<span>*</span>
+					</p>
+					<input type="text" />
+				</div>
+				<div class="text_wrap">
+					<p>您的公司名称
+						<span>*</span>
+					</p>
+					<div class="choose_list">
+						<ul>
+							<li>
+								<img src="img/check.png" class="check_img" alt="" />1~10人</li>
+							<li>
+								<img src="img/check.png" class="check_img" alt="" />10~49人</li>
+							<li>
+								<img src="img/check.png" class="check_img" alt="" />50~99人</li>
+							<li>
+								<img src="img/check.png" class="check_img" alt="" />100~199人</li>
+							<li>
+								<img src="img/check.png" class="check_img" alt="" />200人以上</li>
+						</ul>
+					</div>
+				</div>
+				<div class="text_wrap">
+					<p>您的公司所在地址？
+						<span>*</span>
+					</p>
+					<textarea name="" rows="" cols=""> </textarea>
+				</div>
+				<div class="text_wrap">
+					<p>一句话描述您的公司经营业务？
+						<span>*</span>
+					</p>
+					<textarea name="" rows="" cols=""> </textarea>
+				</div>
+				<div class="text_wrap">
+					<p>您在公司的职位？
+						<span>*</span>
+					</p>
+					<textarea name="" rows="" cols=""> </textarea>
+				</div>
+			</div>
+			<a class="tijiao" href="#">提交</a>
+			<div style="height: 1px;margin-bottom: .12rem;"></div>
 		</div>
+
+	</div>
+	<div class="yonghu">
+		<span>登录 |
+			<a href="#">注册</a>
+		</span>
+		<a href="#top" class="back_top">
+			<img src="img/back_top.png" alt="" />返回顶部</a>
+	</div>
+	<div class="nav">
+		<ul class="clearfix">
+			<li>
+				<a href="#">返回首页</a>|</li>
+			<li>
+				<a href="#">配送范围</a>|</li>
+			<li>
+				<a href="#">我的订单</a>|</li>
+			<li>
+				<a href="#">订购指南</a>|</li>
+			<li>
+				<a href="#">企业客户</a>|</li>
+			<li>
+				<a href="#">隐私条例</a>|</li>
+			<li>
+				<a href="#">合作指南</a>|</li>
+			<li>
+				<a href="#">品牌故事</a>
+			</li>
+
+		</ul>
+	</div>
+	<div class="kefu ">
+		<ul class="clearfix">
+			<li>
+				<a href="#">
+					<img src="img/kefu.png" />
+				</a>
+			</li>
+			<li>
+				<a href="#" class="dianhua">
+					<img src="img/dianhua_kefu.png" />
+				</a>
+			</li>
+		</ul>
+		<div class="time">客服接待时间 周一至周日 9:00-20:30 桂ICP备12002305号-1</div>
+		<div class="banben">
+			<span>
+				<a href="#">电脑版</a> |
+				<a href="#">手机版</a>
+			</span>
 		</div>
-		<script type="text/javascript">
-					$(function(){ 
-						$(".check_img").click(function(){
-							if($(this).attr("src")=="img/check.png"){
-							$(this).attr("src","img/checked.png")
-							$(this).parent().siblings().children(".check_img").attr("src","img/check.png")
-							}
-							else{
-								$(this).attr("src","img/check.png");
-								$(this).parent().siblings().children(".check_img").attr("src","img/check.png");
-								
-								}
-						})
-					})
-				</script>
-	</body>
+	</div>
+	</div>
+	<script type="text/javascript">
+		$(function () {
+			$(".check_img").click(function () {
+				if ($(this).attr("src") == "img/check.png") {
+					$(this).attr("src", "img/checked.png")
+					$(this).parent().siblings().children(".check_img").attr("src", "img/check.png")
+				}
+				else {
+					$(this).attr("src", "img/check.png");
+					$(this).parent().siblings().children(".check_img").attr("src", "img/check.png");
+
+				}
+			})
+		})
+	</script>
+</body>
 
 </html>

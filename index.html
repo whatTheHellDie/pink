@@ -1,315 +1,271 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		
-		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
-		<link rel="stylesheet" type="text/css" href="css/index.css"/>
-		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/hhSwipe.js" type="text/javascript" charset="utf-8"></script>
-		<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=0.5,maximum-scale=0.5,user-scalable=no" />
-<script type="text/javascript">
-	(function (doc, win) {
-  var docEl = doc.documentElement,
-    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-    recalc = function () {
-      var clientWidth = docEl.clientWidth;
-      if (!clientWidth) return;
-      docEl.style.fontSize = 50 * (clientWidth / 320) + 'px';
-    };
- 
-  if (!doc.addEventListener) return;
-  win.addEventListener(resizeEvt, recalc, false);
-  doc.addEventListener('DOMContentLoaded', recalc, false);
-})(document, window);
-</script>
-	</head>
-	<body>
-		<div class="index_head">
-			<img src="img/logo.png" alt="logo" class="logo" />
-			<span><a href="#"><img src="img/order1.png" alt="" class="location" /><span>南宁</span></a></span>
-			<img src="img/fu_title.png" class="beaty" alt="" />
-		</div>
-		<div class="wrap">
-			<!--轮播图开始--> 
-		  <div class="banner">
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=0.5,maximum-scale=0.5,user-scalable=no"
+	/>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/hhSwipe.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/reset.js"></script>
+
+</head>
+
+<body>
+	<div class="index_head">
+		<img src="img/logo.png" alt="logo" class="logo" />
+		<span>
+			<a href="#">
+				<img src="img/order1.png" alt="" class="location" />
+				<span>南宁</span>
+			</a>
+		</span>
+		<img src="img/fu_title.png" class="beaty" alt="" />
+	</div>
+	<div class="wrap">
+		<!--轮播图开始-->
+		<div class="banner">
 			<article>
-			  <div class="scroll_box" id="scroll_img">
-				<ul class="scroll_wrap">
-				  <li>
-					<a href="#">
-						<img class="scroll_img" src="img/banner.png" width="100%">
-					</a>
-					</li>
-				  <li>
-					<a href="#"><img class="scroll_img" src="img/banner.png" width="100%" ></a></li>
-				  </ul>
+				<div class="scroll_box" id="scroll_img">
+					<ul class="scroll_wrap">
+						<li>
+							<a href="#">
+								<img class="scroll_img" src="img/banner.png" width="100%">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img class="scroll_img" src="img/banner.png" width="100%">
+							</a>
+						</li>
+					</ul>
 				</div>
-				
-			
-			  
-			 <!--scroll-->
-			 <div class="scroll relative">
-				  <ul class="scroll_position" id='scroll_position'>
-					  <li class="on"><a href="javascript:void(0);"></a></li>
-					  <li><a href="javascript:void(0);"></a></li>
-				  </ul>
-			 </div>
-			  <!--scroll-->
-			
+
+				<!--scroll-->
+				<div class="scroll relative">
+					<ul class="scroll_position" id='scroll_position'>
+						<li class="on">
+							<a href="javascript:void(0);"></a>
+						</li>
+						<li>
+							<a href="javascript:void(0);"></a>
+						</li>
+					</ul>
+				</div>
+				<!--scroll-->
+
 			</article>
-		
+
 		</div>
 		<!--轮播图结束-->
 		<div class="greyline"></div>
-			<div class="news_center">
-				<div class="news_center_title">
-					<img src="img/news_center.png" class="news_center_title_img" alt="" />
+		<div class="news_center">
+			<div class="news_center_title">
+				<img src="img/news_center.png" class="news_center_title_img" alt="" />
 				<ul class="news_content">
-					<li class="news_content_li">化妆品店韩国原装进口化妆品店韩国国国国进口口妆国11韩国国国国进口口妆品店韩国国国国11</a></li>
+					<li class="news_content_li">化妆品店韩国原装进口化妆品店韩国国国国进口口妆国11韩国国国国进口口妆品店韩国国国国11</a>
+					</li>
 				</ul>
-				</div>
-				
 			</div>
-			<script type="text/javascript">
-			
-			function scrollNews(){
-					var kk=parseInt($(".news_content_li").width()-$(".news_content_li").parent().width())+parseInt($(".news_content").css("font-size"));
-				$(".news_content_li").animate({"left":-kk},aa)
-						$(".news_content_li").animate({"left":"0"},0)
-			}
-			window.onload=function(){
-				if($(".news_content_li").width()>$(".news_content_li").parent().width()){
-				
-				var kk=parseInt($(".news_content_li").width()-$(".news_content_li").parent().width())+parseInt($(".news_content").css("font-size"));
-				$(".news_content_li").animate({"left":-kk},aa);
-						$(".news_content_li").animate({"left":"0"},0);
-				window.setInterval("scrollNews()",aa)
-				}
-				}
-			if($(".news_content_li").text().length>21){
-			var cc=parseInt($(".news_content_li").text().length-22)*200;
-		var aa=3000+cc;
-			}
-			else{
-				var aa=3000;
-			}
-			
-			</script>
-			<style type="text/css">
-				/*新闻中心*/
 
+		</div>
 
-.news_center_title {
-	position: relative;
-	height: .6rem;
-	overflow: hidden;
-}
-
-.news_center_title_img {
-	width: .98rem;
-	height: 0.31rem;
-	margin-left: 0.27rem;
-	margin-top: 0.15rem;
-	display: block;
-}
-
-.news_center_title_img2 {
-	width: 3.12rem;
-	height: .33rem;
-	margin-left: 0.12rem;
-	margin-top: 0.19;
-}
-
-
-.news_content {
-    display: inline-block;
-    font-style: italic;
-    font-size: 0.24rem;
-    color: #333;
-    position: absolute;
-    left: 1.4rem;
-    top: 0;
-    height: .6rem;
-    width: 4.9rem;
-    overflow: hidden;
-}
-
-.news_content_li {
-	position: relative;
-	height: .6rem;
-	line-height: .6rem;
-	    white-space: nowrap;
-	color: #333;
-	display: inline;
-	
-}
-.new_ac{transition: transform 3.5s ease-out 0s;}
-.news_content a {
-	color: #fff;
-	display: block;
-	height: .6rem;
-}
-
-.news_center_title {
-	position: relative;
-}
-			</style>
 		<div class="greyline"></div>
 		<div class="tehui_list ">
-			<p><img src="img/xin.png" alt="" />特惠 <span>桃胶9.9套餐（桃胶系列+主食+山泉水）</span><a href="tehui.html">更多</a></p>
+			<p>
+				<img src="img/xin.png" alt="" />特惠
+				<span>桃胶9.9套餐（桃胶系列+主食+山泉水）</span>
+				<a href="tehui.html">更多</a>
+			</p>
 			<ul class="clearfix">
-				<li> <a href="detail.html">
-					<img src="img/z1.png"/>
-					<div class="title">雪耳雪莲子桃花羹</div>
-					<div class="fu_title">精选食材：雪耳、桃胶、皂角米、莲子、冰糖</div>
+				<li>
+					<a href="detail.html">
+						<img src="img/z1.png" />
+						<div class="title">雪耳雪莲子桃花羹</div>
+						<div class="fu_title">精选食材：雪耳、桃胶、皂角米、莲子、冰糖</div>
 					</a>
 				</li>
-				<li> <a href="detail.html">
-					<img src="img/z1.png"/>
-					<div class="title">雪耳雪莲子桃花羹</div>
-					<div class="fu_title">精选食材：雪耳、桃胶、皂角米、莲子、冰糖</div>
+				<li>
+					<a href="detail.html">
+						<img src="img/z1.png" />
+						<div class="title">雪耳雪莲子桃花羹</div>
+						<div class="fu_title">精选食材：雪耳、桃胶、皂角米、莲子、冰糖</div>
 					</a>
 				</li>
-				<li> <a href="detail.html">
-					<img src="img/z1.png"/>
-					<div class="title">雪耳雪莲子桃花羹</div>
-					<div class="fu_title">精选食材：雪耳、桃胶、皂角米、莲子、冰糖</div>
+				<li>
+					<a href="detail.html">
+						<img src="img/z1.png" />
+						<div class="title">雪耳雪莲子桃花羹</div>
+						<div class="fu_title">精选食材：雪耳、桃胶、皂角米、莲子、冰糖</div>
 					</a>
 				</li>
-				<li> <a href="detail.html">
-					<img src="img/z1.png"/>
-					<div class="title">雪耳雪莲子桃花羹</div>
-					<div class="fu_title">精选食材：雪耳、桃胶、皂角米、莲子、冰糖</div>
+				<li>
+					<a href="detail.html">
+						<img src="img/z1.png" />
+						<div class="title">雪耳雪莲子桃花羹</div>
+						<div class="fu_title">精选食材：雪耳、桃胶、皂角米、莲子、冰糖</div>
 					</a>
 				</li>
 			</ul>
 		</div>
 		<div class="greyline"></div>
 		<div class="xilie">
-		<div class="title"><span>雪莲子系列</span><ul>
-		<li><a href="#">雪耳</a>|</li>
-		<li><a href="#">金耳</a>|</li>
-		<li><a href="#">雪燕</a>|</li>
-		<li><a href="#">雪梨</a></li>
-		</ul></div>
-		<img src="img/z2.png" alt="" class="tu" />
-		<div class="content clearfix">
-			
-		<div class="content_left">
-			<div class="name">雪莲子系列</div>
-			<div class="my">精选食材：雪耳、金耳、雪燕、雪梨</div>
-		</div>
-		<div class="content_right">
-			<a href="#"><span>￥62</span></a><img src="img/shoucang.png" class="shoucang"/>
-		</div>
-		
-		</div>
-		<div class="greyline"></div>
+			<div class="title">
+				<span>雪莲子系列</span>
+				<ul>
+					<li>
+						<a href="#">雪耳</a>|</li>
+					<li>
+						<a href="#">金耳</a>|</li>
+					<li>
+						<a href="#">雪燕</a>|</li>
+					<li>
+						<a href="#">雪梨</a>
+					</li>
+				</ul>
+			</div>
+			<img src="img/z2.png" alt="" class="tu" />
+			<div class="content clearfix">
+
+				<div class="content_left">
+					<div class="name">雪莲子系列</div>
+					<div class="my">精选食材：雪耳、金耳、雪燕、雪梨</div>
+				</div>
+				<div class="content_right">
+					<a href="#">
+						<span>￥62</span>
+					</a>
+					<img src="img/shoucang.png" class="shoucang" />
+				</div>
+
+			</div>
+			<div class="greyline"></div>
 		</div>
 		<div class="xilie">
-		<div class="title"><span>雪莲子系列</span><ul>
-		<li><a href="#">雪耳</a>|</li>
-		<li><a href="#">金耳</a>|</li>
-		<li><a href="#">雪燕</a>|</li>
-		<li><a href="#">雪梨</a></li>
-		</ul></div>
-		<img src="img/z2.png" alt="" class="tu" />
-		<div class="content clearfix">
-		<div class="content_left">
-			<div class="name">雪莲子系列</div>
-			<div class="my">精选食材：雪耳、金耳、雪燕、雪梨</div>
-		</div>
-		<div class="content_right">
-			<a href="#"><span>￥62</span></a><img src="img/shoucang.png" class="shoucang"/>
-		</div>
-		
-		</div>
-		<div class="greyline"></div>
+			<div class="title">
+				<span>雪莲子系列</span>
+				<ul>
+					<li>
+						<a href="#">雪耳</a>|</li>
+					<li>
+						<a href="#">金耳</a>|</li>
+					<li>
+						<a href="#">雪燕</a>|</li>
+					<li>
+						<a href="#">雪梨</a>
+					</li>
+				</ul>
+			</div>
+			<img src="img/z2.png" alt="" class="tu" />
+			<div class="content clearfix">
+				<div class="content_left">
+					<div class="name">雪莲子系列</div>
+					<div class="my">精选食材：雪耳、金耳、雪燕、雪梨</div>
+				</div>
+				<div class="content_right">
+					<a href="#">
+						<span>￥62</span>
+					</a>
+					<img src="img/shoucang.png" class="shoucang" />
+				</div>
+
+			</div>
+			<div class="greyline"></div>
 		</div>
 		<div class="yonghu">
-			<span>登录 | <a href="#">注册</a></span><a href="#top" class="back_top"><img src="img/back_top.png" alt="" />返回顶部</a>
+			<span>登录 |
+				<a href="#">注册</a>
+			</span>
+			<a href="#top" class="back_top">
+				<img src="img/back_top.png" alt="" />返回顶部</a>
 		</div>
 		<div class="nav">
 			<ul class="clearfix">
-				<li><a href="#">返回首页</a>|</li>
-				<li><a href="#">配送范围</a>|</li>
-				<li><a href="#">我的订单</a>|</li>
-				<li><a href="#">订购指南</a></li>
-				<li><a href="#">企业客户</a>|</li>
-				<li><a href="#">隐私条例</a>|</li>
-				<li><a href="#">合作指南</a>|</li>
-				<li><a href="#">品牌故事</a></li>
-				
+				<li>
+					<a href="#">返回首页</a>|</li>
+				<li>
+					<a href="#">配送范围</a>|</li>
+				<li>
+					<a href="#">我的订单</a>|</li>
+				<li>
+					<a href="#">订购指南</a>
+				</li>
+				<li>
+					<a href="#">企业客户</a>|</li>
+				<li>
+					<a href="#">隐私条例</a>|</li>
+				<li>
+					<a href="#">合作指南</a>|</li>
+				<li>
+					<a href="#">品牌故事</a>
+				</li>
+
 			</ul>
 		</div>
 		<div class="kefu ">
 			<ul class="clearfix">
-				<li><a href="#"><img src="img/kefu.png"/></a></li>
-				<li><a href="#" class="dianhua"><img src="img/dianhua_kefu.png"/></a></li>
+				<li>
+					<a href="#">
+						<img src="img/kefu.png" />
+					</a>
+				</li>
+				<li>
+					<a href="#" class="dianhua">
+						<img src="img/dianhua_kefu.png" />
+					</a>
+				</li>
 			</ul>
-			<div class="time">客服接待时间  周一至周日  9:00-20:30  桂ICP备12002305号-1</div>
+			<div class="time">客服接待时间 周一至周日 9:00-20:30 桂ICP备12002305号-1</div>
 			<div class="banben">
-				<span><a href="#">电脑版</a> | <a href="#">手机版</a></span>
+				<span>
+					<a href="#">电脑版</a> |
+					<a href="#">手机版</a>
+				</span>
 			</div>
 		</div>
-		
+
+	</div>
+
+	<div class="foot clearfix">
+		<div class="foot_title">
+			<a href="index.html">
+				<img src="img/f1_a.png" class="foot_img" />
+				<div class="title active ">主页</div>
+			</a>
+		</div>
+		<div class="foot_title">
+			<a href="list.html">
+				<img src="img/f2.png" class="foot_img" />
+				<div class="title">分类</div>
+			</a>
+		</div>
+		<div class="foot_tehui">
+			<a href="">
+				<div class="tehuiyuan">
+					<img src="img/tehui.png" alt="" />
+					<a href="tehui.html">9.9</a>
 				</div>
-				
-				<div class="foot clearfix">
-					<div class="foot_title">
-						<a href="index.html">
-						<img src="img/f1_a.png" class="foot_img"/>
-						<div class="title active ">主页</div>
-						</a>
-					</div>
-					<div class="foot_title">
-						<a href="list.html">
-						<img src="img/f2.png" class="foot_img"/>
-						<div class="title">分类</div>
-						</a>
-					</div>
-					<div class="foot_tehui">
-						<a href="">
-						<div class="tehuiyuan"><img src="img/tehui.png" alt="" /><a href="tehui.html">9.9</a></div>
-						<div class="title" style="padding-top: .11rem;">特惠</div>
-						</a>
-					</div>
-					<div class="foot_title">
-						<a href="shop_cart.html">
-						<img src="img/f3.png" class="foot_img"/>
-						<div class="title">购物车</div>
-						<div class="number active">2</div>
-						</a>
-					</div>
-					<div class="foot_title">
-						<a href="wode.html">
-						<img src="img/f4.png" class="foot_img"/>
-						<div class="title">我</div>
-						</a>
-					</div>
-				</div>
-			  	<script type="text/javascript">
-			  								//adv广告轮播
- 	var slider = Swipe(document.getElementById('scroll_img'), {
-		auto: 3000,
-		continuous: true,
-		callback: function(pos) {
-			var i = bullets.length;
-			while (i--) {
-				bullets[i].className = ' ';
-			}
-			bullets[pos].className = 'on';
-		}
-	});
-	var bullets = document.getElementById('scroll_position').getElementsByTagName('li');
-	$(function(){
-		$(".shoucang").click(function(){
-			$(this).attr("src","img/shoucang_a.png");
-		})
-	})
-				</script>
-	</body>
-	
+				<div class="title" style="padding-top: .11rem;">特惠</div>
+			</a>
+		</div>
+		<div class="foot_title">
+			<a href="shop_cart.html">
+				<img src="img/f3.png" class="foot_img" />
+				<div class="title">购物车</div>
+				<div class="number active">2</div>
+			</a>
+		</div>
+		<div class="foot_title">
+			<a href="wode.html">
+				<img src="img/f4.png" class="foot_img" />
+				<div class="title">我</div>
+			</a>
+		</div>
+	</div>
+	<script src="js/index.js"></script>
+</body>
+
 </html>
