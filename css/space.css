@@ -1,0 +1,17 @@
+img {
+	display: inline-block;
+	vertical-align: top;
+}
+
+input {
+	vertical-align: top;
+}
+
+.wrap{    width: 100%;
+    min-width: 320px;
+    margin: 0px auto 0px;
+    padding: .2rem;
+    padding-top: .82rem;
+    font-size: .24rem;
+    box-sizing: border-box;}
+.wrap img{max-width: 100%;}

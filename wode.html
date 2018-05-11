@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/wode.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/hhSwipe.js" type="text/javascript" charset="utf-8"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=0.5,maximum-scale=0.5,user-scalable=no" />
+<script type="text/javascript">
+	(function (doc, win) {
+  var docEl = doc.documentElement,
+    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+    recalc = function () {
+      var clientWidth = docEl.clientWidth;
+      if (!clientWidth) return;
+      docEl.style.fontSize = 50 * (clientWidth / 320) + 'px';
+    };
+ 
+  if (!doc.addEventListener) return;
+  win.addEventListener(resizeEvt, recalc, false);
+  doc.addEventListener('DOMContentLoaded', recalc, false);
+})(document, window);
+</script>
+	</head>
+	<body>
+		<div class="head">我的品客
+	<img src="img/back.png" class="return_img" onClick="javascript:history.back(-1);" alt="" />
+			
+		</div>
+		<div class="wrap">
+			<div class="m_info">
+				<div>尊敬的会员，15977131791   <span>退出</span></div>
+				<div>待完成订单：待付款（2）</div>
+				<div>我的消息：有（1）条未读消息</div>
+			</div>
+			<div class="my_list">
+				<ul>
+					<li><a href="my_dingdan.html"><img src="img/w1.png" class="li_img"  />订单列表<img src="img/turn_right.png" class="turn" /></a></li>
+					<li><a href="youhuiquan.html"><img src="img/w2.png" class="li_img"  />我的优惠券<img src="img/turn_right.png" class="turn" /></a></li>
+					<li><a href="jifen.html"><img src="img/w3.png" class="li_img"  />我的积分<img src="img/turn_right.png" class="turn" /></a></li>
+					<li><a href="pay_password.html"><img src="img/w4.png" class="li_img"  />支付密码<img src="img/turn_right.png" class="turn" /></a></li>
+					<li><a href="message.html"><img src="img/w5.png" class="li_img"  />我的消息<img src="img/turn_right.png" class="turn" /></a></li>
+					<li><a href="address.html"><img src="img/w6.png" class="li_img"  />收货地址<img src="img/turn_right.png" class="turn" /></a></li>
+				</ul>
+			</div>
+		<div class="yonghu">
+			<span>登录 | <a href="#">注册</a></span><a href="#top" class="back_top"><img src="img/back_top.png" alt="" />返回顶部</a>
+		</div>
+		<div class="nav">
+			<ul class="clearfix">
+				<li><a href="#">返回首页</a>|</li>
+				<li><a href="#">配送范围</a>|</li>
+				<li><a href="#">我的订单</a>|</li>
+				<li><a href="#">订购指南</a></li>
+				<li><a href="#">企业客户</a>|</li>
+				<li><a href="#">隐私条例</a>|</li>
+				<li><a href="#">合作指南</a>|</li>
+				<li><a href="#">品牌故事</a></li>
+				
+			</ul>
+		</div>
+		<div class="kefu ">
+			<ul class="clearfix">
+				<li><a href="#"><img src="img/kefu.png"/></a></li>
+				<li><a href="#" class="dianhua"><img src="img/dianhua_kefu.png"/></a></li>
+			</ul>
+			<div class="time">客服接待时间  周一至周日  9:00-20:30  桂ICP备12002305号-1</div>
+			<div class="banben">
+				<span><a href="#">电脑版</a> | <a href="#">手机版</a></span>
+			</div>
+		</div>
+		
+				</div>
+				
+				<div class="foot clearfix">
+					<div class="foot_title">
+						<a href="index.html">
+						<img src="img/f1.png" class="foot_img"/>
+						<div class="title">主页</div>
+						</a>
+					</div>
+					<div class="foot_title">
+						<a href="list.html">
+						<img src="img/f2.png" class="foot_img"/>
+						<div class="title">分类</div>
+						</a>
+					</div>
+					<div class="foot_tehui">
+						<a href="tehui.html">
+						<div class="tehuiyuan"><img src="img/tehui.png" alt="" /><a href="#">9.9</a></div>
+						<div class="title" style="padding-top: .11rem;">特惠</div>
+						</a>
+					</div>
+					<div class="foot_title">
+						<a href="shop_cart.html">
+						<img src="img/f3.png" class="foot_img"/>
+						<div class="title">购物车</div>
+						<div class="number active">2</div>
+						</a>
+					</div>
+					<div class="foot_title">
+						<a href="wode.html">
+						<img src="img/f4_a.png" class="foot_img"/>
+						<div class="title active">我</div>
+						</a>
+					</div>
+				</div>
+			  	<script type="text/javascript">
+	$(function(){
+		$(".shoucang").click(function(){
+			$(this).attr("src","img/shoucang_a.png")
+		})
+	})
+				</script>
+	</body>
+	
+</html>

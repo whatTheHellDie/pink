@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/checkout.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=0.5,maximum-scale=0.5,user-scalable=no" />
+<script type="text/javascript">
+	(function (doc, win) {
+  var docEl = doc.documentElement,
+    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+    recalc = function () {
+      var clientWidth = docEl.clientWidth;
+      if (!clientWidth) return;
+      docEl.style.fontSize = 50 * (clientWidth / 320) + 'px';
+    };
+ 
+  if (!doc.addEventListener) return;
+  win.addEventListener(resizeEvt, recalc, false);
+  doc.addEventListener('DOMContentLoaded', recalc, false);
+})(document, window);
+</script>
+	</head>
+	<body>
+	<div class="head">填写订单
+	<img src="img/back.png" class="return_img" onClick="javascript:history.back(-1);" alt="" />
+			
+		</div>
+		<div class="wrap" id="top">
+			<div class="item clearfix">
+				<img src="img/e1.png" alt="" />
+				<div class="content">
+					<div class="title">Pink经典色拉</div>
+					<div class="second">精选食材：烟熏鸡肉，马苏里拉芝士、牛油果、鸡蛋、番茄、
+培根X生菜、特调千岛酱</div>
+<div class="price">￥45</div>
+<div class="number">x2</div>
+				</div>
+			</div>
+		<div class="shouhuo clearfix">
+			<img src="img/order1.png" alt="" />收货地址<a href="#">修改>></a>
+		<div class="address">
+			<div><span class="name">潘海银</span><span class="number">15677131791</span></div>
+			<div class="content">合作路1号昌泰大厦14层</div>
+		</div>
+		</div>		
+		<div class="shouhuo clearfix">
+			<img src="img/order2.png" alt="" />配送时间
+			<div class="peisong">
+				<div><span>选择配送时间：</span>
+					<input type="text" value="2016-10-14" />
+				</div>
+				<div><span>选择时间段：</span>
+					<input type="text" value="午餐（12：00-14：00）" /><img src="img/down.png" class="down" alt="" />
+					<select name="">
+						<option value="">午餐（12：00-14：00）</option>
+						<option value="">午餐（17：00-19：00）</option>
+					</select>
+				</div>
+			</div>
+			
+		</div>	
+		<div class="shouhuo clearfix">
+			<img src="img/order3.png" alt="" />配送方式
+			<div class="peisong_way">
+			<div class="checked"><img src="img/check.png" class="check_img" alt="" /><span>品客配送</span><span class="tips">（提示：当天下单，第二天进行配送）</span></div>	
+			</div>
+		</div>	
+		<div class="shouhuo clearfix">
+			<img src="img/order4.png" alt="" />支付方式
+			<div class="pay_way">
+			<div class="checked"><img src="img/check.png" class="check_img" alt="" /><img src="img/weixin.png" class="pay_img" alt="" /><span>微信支付</span><span class="tips">请关注“品客”微信后打开</span></div>	
+			<div class="checked"><img src="img/check.png" class="check_img" alt="" /><img src="img/zhifubao.png" class="pay_img" alt="" /><span>支付宝支付</span><span class="tips">请用非微信浏览器打开</span></div>
+			<div class="checked"><img src="img/check.png" class="check_img" alt="" /><img src="img/yinlian.png" class="pay_img pay_img1" alt="" /><span>网银支付</span><span class="tips"></span></div>	
+			<div class="checked"><img src="img/check.png" class="check_img" alt="" /><img src="img/jifen.png" class="pay_img" alt="" /><span>积分抵扣</span></span></div>	
+			</div>
+		</div>	
+		<div class="shouhuo clearfix">
+			<img src="img/order5.png" alt="" />优惠券使用
+			<div class="youhui">
+				<div><span>选择时间段：</span>
+					<input type="text" value="D3254625225625552 ￥20元" /><img src="img/down.png" class="down" alt="" />
+					<select name="">
+						<option value="">D3254625225625552 ￥20元</option>
+						<option value="">D3254625225625552 ￥120元</option>
+					</select>
+				</div>
+
+			</div>
+		</div>	
+		<div class="shouhuo clearfix clearline">
+			<img src="img/order5.png" alt="" />订单备注
+			<div class="beizhu">
+			<textarea name="" rows="" cols="">
+				
+			</textarea>
+			</div>
+			<div class="checkout">
+				<ul>
+					<li><span class="title">订单金额 :</span><span class="price">￥68</span></li>
+					<li><span class="title">折扣优惠 :</span><span class="price">0</span></li>
+					<li><span class="title">优惠券抵扣:</span><span class="price">￥20</span></li>
+					<li><span class="title">订单总计 :</span><span class="total_price">￥48.00</span></li>
+				</ul>
+			</div>
+		</div>	
+		<a href="index.html" class="tijiao">提交订单</a>
+		<div class="yonghu">
+			<span>15977131791 | <a href="#">退出</a></span><a href="#top" class="back_top"><img src="img/back_top.png" alt="" />返回顶部</a>
+		</div>
+		<div class="nav">
+			<ul class="clearfix">
+				<li><a href="#">返回首页</a>|</li>
+				<li><a href="#">配送范围</a>|</li>
+				<li><a href="#">我的订单</a>|</li>
+				<li><a href="#">订购指南</a></li>
+				<li><a href="#">企业客户</a>|</li>
+				<li><a href="#">隐私条例</a>|</li>
+				<li><a href="#">合作指南</a>|</li>
+				<li><a href="#">品牌故事</a></li>
+				
+			</ul>
+		</div>
+		<div class="kefu ">
+			<ul class="clearfix">
+				<li><a href="#"><img src="img/kefu.png"/></a></li>
+				<li><a href="#" class="dianhua"><img src="img/dianhua_kefu.png"/></a></li>
+			</ul>
+			<div class="time">客服接待时间  周一至周日  9:00-20:30  桂ICP备12002305号-1</div>
+			<div class="banben">
+				<span><a href="#">电脑版</a> | <a href="#">手机版</a></span>
+			</div>
+		</div>
+		
+		</div>
+				<script type="text/javascript">
+					$(function(){
+						$(".checked .check_img").click(function(){
+							if($(this).attr("src")=="img/check.png"){
+							$(this).attr("src","img/checked.png")
+							$(this).parent().siblings(".checked").children(".check_img").attr("src","img/check.png")
+							}
+							else{
+								$(this).attr("src","img/check.png");
+								$(this).parent().siblings(".checked").children(".check_img").attr("src","img/check.png");
+								
+								}
+						})
+					})
+				</script>
+	</body>
+	
+</html>

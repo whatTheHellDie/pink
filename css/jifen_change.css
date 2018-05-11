@@ -1,0 +1,131 @@
+img {
+	display: inline-block;
+	vertical-align: top;
+}
+
+input {
+	vertical-align: top;
+}
+
+body {
+	background: #f5f5f5;
+}
+
+.jifen {
+	margin-top: .12rem;
+	line-height: .7rem;
+	color: #666666;
+	background: #fff;
+	font-size: .21rem;
+	padding-left: .23rem;
+}
+
+.guan {
+	width: .23rem;
+	height: .24rem;
+	position: relative;
+	top: .04rem;
+	margin-right: .06rem;
+	margin-top: .16rem;
+}
+
+.detail {
+	color: #ea5f7d;
+}
+
+.jifen_tip {
+	padding-right: .34rem;
+	color: #ea5f7d;
+}
+
+.dui {
+	background: #fff;
+	margin-top: .1rem;
+	padding-bottom: .2rem;
+}
+
+.dui p {
+	font-size: .21rem;
+	color: #333333;
+	padding-left: .24rem;
+	line-height: .45rem;
+	padding-top: .2rem;
+}
+
+.dui input {
+	    width: 1.4rem;
+    height: .45rem;
+    padding: 0 .1rem;
+    background: #ebebeb;
+    border: 1px solid #ebebeb;
+    margin-left: .06rem;
+    margin-right: .1rem;
+    font-size: .21rem;
+    box-sizing: border-box;
+}
+
+.dui .dui_tip {
+	color: #ea5f7d;
+	font-size: .14rem;
+}
+
+
+/*优惠券*/
+
+.quan li {
+	position: relative;
+	width: 6.18rem;
+	height: 1.19rem;
+	margin: .2rem auto;
+}
+
+.quan_img {
+	width: 6.18rem;
+	height: 1.19rem;
+}
+.quan .li_number{ font-size: .21rem;
+    color: #848181;
+    text-align: right;
+    top: .07rem;    position: absolute;    left: .3rem;}
+.quan .name {
+	    position: absolute;
+    color: #ea5f7d;
+    font-size: .33rem;
+    top: .38rem;
+    left: .25rem;
+}
+
+.quan .name_tip {
+	font-size: .19rem;
+}
+
+.quan .time {
+	font-size: .16rem;
+	position: absolute;
+	bottom: .06rem;
+	left: .3rem;
+}
+
+.dui a {
+	font-size: .21rem;
+	font-weight: 800;
+	color: #fff;
+	background: #ea5f7d;
+	text-align: center;
+	width: 1.1rem;
+	height: .38rem;
+	line-height: .38rem;
+	display: block;
+	position: absolute;
+	top: .4rem;right: .41rem;border-radius:10px ;
+}
+
+.yonghu{background: #fff;}
+
+
+
+.confirm_button{    background: #ef748f;
+    color: #fff;
+    padding: .06rem .22rem;
+    border-radius: 6px;
+    margin-right: .12rem;}

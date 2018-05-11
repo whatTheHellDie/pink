@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/my_dingdan_detail.css" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=0.5,maximum-scale=0.5,user-scalable=no" />
+		<script type="text/javascript">
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 50 * (clientWidth / 320) + 'px';
+					};
+
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+
+	<body>
+		<div class="head">我的订单
+			<img src="img/back.png" class="return_img" onClick="javascript:history.back(-1);" alt="" />
+
+		</div>
+		<div class="wrap">
+			<script type="text/javascript">
+				$(function() {
+					$(".choose_list li").click(function() {
+						$(this).addClass("active").siblings().removeClass("active");
+					})
+				})
+			</script>
+			<div class="list">
+				<ul>
+					<li class="clearfix">
+						<div class="danhao"><span>品客单号：3901743700689</span><span class="state">待付款</span></div>
+						<div class="lie clearfix">
+							<img src="img/e1.png" class="my_img" alt="" />
+							<div class="information">
+								<div class="title">莲子雪耳桃花羹</div>
+								<div class="stitle">精选食材：莲子、雪耳、桃胶 、冰糖</div>
+								<div class="price">￥65</div>
+								<div class="number">x2</div>
+							</div>
+						</div>
+						<div class="lie clearfix">
+							<img src="img/e1.png" class="my_img" alt="" />
+							<div class="information">
+								<div class="title">莲子雪耳桃花羹</div>
+								<div class="stitle">精选食材：莲子、雪耳、桃胶 、冰糖</div>
+								<div class="price">￥65</div>
+								<div class="number">x2</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<div class="thing_list">
+							<dl>
+								<dd><span class="thing_title">订单金额</span><span class="thing_price">￥68</span></dd>
+								<dd><span class="thing_title">折扣优惠</span><span class="thing_price">0</span></dd>
+								<dd><span class="thing_title">优惠券折扣</span><span class="thing_price">￥20</span></dd>
+								<dd><span class="thing_title">积分抵扣</span><span class="thing_price">￥10.00</span></dd>
+								<dd><span class="thing_title">邮费</span><span class="thing_price">￥0.00</span></dd>
+								<dd><span class="thing_title">支付类型</span><span class="thing_price">支付宝</span></dd>
+								<dd><span class="thing_title">收货人</span><span class="thing_price">僵小鱼</span></dd>
+								<dd><span class="thing_title">收货人电话</span><span class="thing_price">15977131791</span></dd>
+								<dd><span class="thing_title">收货地址 :</span><span class="thing_price address">广西南宁市青秀区合作路1号昌泰大厦14层广西
+南宁市青秀区合作路1号昌泰大厦14层</span></dd>
+								<dd><span class="thing_title">完成时间 :</span><span class="thing_price">2016-12-4  15 : 00</span></dd>
+								<dd><span class="thing_title">配送员</span><span class="thing_price">李小凡</span></dd>
+								<dd><span class="thing_title">退款金额</span><span class="thing_price">0</span></dd>
+							</dl>
+						</div>
+					</li>
+				</ul>
+				<div class="liuyan">
+					<textarea name="" rows="" cols="">留言:</textarea>
+				</div>
+				<div class="total_fix"><span style="">订单总计 :</span><span class="fix_t">￥48.00</span></div>
+			</div>
+			<script type="text/javascript">
+				window.onload = function() {
+					$(".list li").each(function(i) {
+						$(".list li").eq(i).find(".lie").eq(0).css("border-top", "none")
+					})
+				}
+			</script>
+		</div>
+		<div class="foot clearfix">
+			<div class="foot_title">
+				<a href="#">
+					<img src="img/f1.png" class="foot_img" />
+					<div class="title ">主页</div>
+				</a>
+			</div>
+			<div class="foot_title">
+				<a href="#">
+					<img src="img/f2_a.png" class="foot_img" />
+					<div class="title active">分类</div>
+				</a>
+			</div>
+			<div class="foot_tehui">
+				<a href="#">
+					<div class="tehuiyuan"><img src="img/tehui.png" alt="" />
+						<a href="#">9.9</a>
+					</div>
+					<div class="title" style="padding-top: .11rem;">特惠</div>
+				</a>
+			</div>
+			<div class="foot_title">
+				<a href="#">
+					<img src="img/f3.png" class="foot_img" />
+					<div class="title">购物车</div>
+					<div class="number active">2</div>
+				</a>
+			</div>
+			<div class="foot_title">
+				<a href="#">
+					<img src="img/f4.png" class="foot_img" />
+					<div class="title">我</div>
+				</a>
+			</div>
+		</div>
+	</body>
+
+</html>

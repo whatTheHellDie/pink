@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+/*结算*/
+.clear{clear: both;}
+.checkout {z-index: 2;;position: fixed;top: .72rem;background: #fff;width: 100%;font-size: .19rem;color: #808080;line-height: .6rem;padding: 0 .19rem;box-sizing: border-box;}
+.checkout .qingkong a{color: #808080;}
+.checkout .qingkong img{display: block;float: left;width: .35rem;height: .35rem;padding-right: .12rem;margin-top: .12rem;}
+.zongji{float: right;}
+.zongji span{font-size: .25rem;color: #EA5F7D;}
+
+.checkout_button{z-index:3;width: 100%;position: fixed;top: 1.32rem;background: #fff;}
+.checkout_button a{display: block;line-height: .6rem;width: 4.76rem;background: #EA5F7D;color: #fff;font-size: .21rem;text-align: center;margin: 0 auto;}
+/*列表*/
+.list{padding-top: 1.22rem;}
+.list .information{float: left;}
+.list li{border-bottom: 2px solid #f9b4b4;}
+
+.add_reduce{z-index:1;float: right;position: relative;padding-right: .26rem;padding-bottom: .12rem;}
+.number{display: inline-block;position: absolute;font-size: .19rem;color: #EA5F7D;left: .4rem;top: -.05rem;}
+.list .add{width: .38rem;height: .3rem;padding: 0;padding-right: .59rem;}
+.list .reduce{width: .38rem;height: .3rem;padding: 0;}
+.list img{float: left;vertical-align:top;padding:.21rem .27rem .12rem .18rem;width: 1.2rem;height: 1.2rem;}
+.list .information{width: 4rem;}
+.list .title{font-size: .21rem;color: #EA5F7D;padding-top: .33rem;}
+.list .stitle{color: #f47983;font-size: .14rem;padding-top: .1rem;}
+.list .price{color: #f20c00;font-size: .19rem;padding-top: .13rem;}
+
+/*勾*/
+.checked{font-size: .16rem;color: #808080;}
+.checked img{width: .33rem;height: .3rem;display: inline-block;    vertical-align: middle;padding: 0;padding-left: .18rem;padding-top: .67rem;}
+.checked span{position: relative;top: .01rem;left: .08rem;}
+
+

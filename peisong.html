@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/peisong.css" />
+		<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=0.5,maximum-scale=0.5,user-scalable=no" />
+		<script type="text/javascript">
+			(function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth;
+						if(!clientWidth) return;
+						docEl.style.fontSize = 50 * (clientWidth / 320) + 'px';
+					};
+
+				if(!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window);
+		</script>
+	</head>
+
+	<body>
+		<div class="head">品牌故事
+			<img src="img/back.png" class="return_img" onClick="javascript:history.back(-1);" alt="" />
+		</div>
+		<div class="wrap">
+			
+			</div>
+			<div class="yonghu">
+			<span>登录 | <a href="#">注册</a></span><a href="#top" class="back_top"><img src="img/back_top.png" alt="" />返回顶部</a>
+		</div>
+		<div class="nav">
+			<ul class="clearfix">
+				<li><a href="#">返回首页</a>|</li>
+				<li><a href="#">配送范围</a>|</li>
+				<li><a href="#">我的订单</a>|</li>
+				<li><a href="#">订购指南</a></li>
+				<li><a href="#">企业客户</a>|</li>
+				<li><a href="#">隐私条例</a>|</li>
+				<li><a href="#">合作指南</a>|</li>
+				<li><a href="#">品牌故事</a></li>
+				
+			</ul>
+		</div>
+		<div class="kefu ">
+			<ul class="clearfix">
+				<li><a href="#"><img src="img/kefu.png"/></a></li>
+				<li><a href="#" class="dianhua"><img src="img/dianhua_kefu.png"/></a></li>
+			</ul>
+			<div class="time">客服接待时间  周一至周日  9:00-20:30  桂ICP备12002305号-1</div>
+			<div class="banben">
+				<span><a href="#">电脑版</a> | <a href="#">手机版</a></span>
+			</div>
+		</div>
+		</div>
+
+	</body>
+
+</html>

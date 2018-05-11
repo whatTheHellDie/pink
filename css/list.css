@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+.choose_list {
+    line-height: .72rem;
+    top: .72rem;
+    position: fixed;
+    background: #fff;
+    width: 6.4rem;
+    overflow: auto;
+}
+.choose_list ul{    white-space: nowrap;
+    font-size: 0;}
+.choose_list li {
+    box-sizing: border-box;
+    font-size: .21rem;
+    color: #333;
+    width: 1.6rem;
+    text-align: center;
+    border-bottom: 2px solid #fbd2d6;
+    display: inline-block;
+    vertical-align: top;
+}
+.choose_list .active{border-bottom: 4px solid #ff526f;}
+
+
+.list{padding-top: .72rem;}
+.list .information{float: left;}
+.list li{border-bottom: 2px solid #f9b4b4;}
+.list img{float: left;vertical-align:top;padding:.21rem .27rem .21rem .18rem;width: 1.2rem;height: 1.2rem;}
+.list .information{width: 4.29rem;}
+.list .title{font-size: .21rem;color: #EA5F7D;padding-top: .3325rem;}
+.list .stitle{color: #f47983;font-size: .14rem;padding-top: .1rem;}
+.list .price{color: #f20c00;font-size: .19rem;padding-top: .13rem;}
+

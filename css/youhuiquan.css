@@ -1,0 +1,10 @@
+img{display: inline-block;}
+
+
+	
+
+
+/*我的积分*/
+.quan{width: 5.94rem;height: 1.66rem;margin: 0 auto;padding-top: .17rem;box-sizing:border-box;padding-left: .23rem;font-size: .19rem;color: #808080;background: #ebebeb;}
+.youxiao{padding-top: .23rem;box-sizing:border-box;margin-top: .12rem;margin-bottom: .2rem;width: 5.46rem;height: .95rem;position: relative;background: #ffd9df;color: #808080;box-sizing: border-box;padding-left: .24rem;}
+.money{font-size:.21rem;line-height: .25rem;position: absolute;right: .23rem;color: #EA5F7D;bottom: .2rem;}

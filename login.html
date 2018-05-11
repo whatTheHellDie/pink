@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<meta name="viewport" content="width=device-width,initial-scale=0.5,minimum-scale=0.5,maximum-scale=0.5,user-scalable=no" />
+<script type="text/javascript">
+	(function (doc, win) {
+  var docEl = doc.documentElement,
+    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+    recalc = function () {
+      var clientWidth = docEl.clientWidth;
+      if (!clientWidth) return;
+      docEl.style.fontSize = 50 * (clientWidth / 320) + 'px';
+    };
+ 
+  if (!doc.addEventListener) return;
+  win.addEventListener(resizeEvt, recalc, false);
+  doc.addEventListener('DOMContentLoaded', recalc, false);
+})(document, window);
+</script>
+	</head>
+	<body>
+	<div class="head">用户登录
+	<img src="img/back.png" class="return_img" onClick="javascript:history.back(-1);" alt="" />
+			
+		</div>
+		<div class="wrap">
+			<div class="login_logo">
+	<img src="img/login_logo.png"  alt="" />
+	</div>
+	<div class="login">
+		<form action="" method="post">
+			<div class="user"><input type="text" placeholder="请输入用户名/邮箱地址"  /></div>
+			<div class="user"><input type="text" class="" placeholder="请输入用户名/邮箱地址"  /></div>
+			<div class="checked"><img src="img/check.png" alt="" /><span>登录并绑定微信帐号</span></div>
+			<div class="bottom_tip"></div>
+			<a href="index.html" class="button">登陆</a>
+			<div class="second">
+				<a href="#">快速注册</a>|忘记密码
+			</div>
+		</form>
+		
+	</div>
+				</div>
+				<script type="text/javascript">
+					$(function(){
+						$(".checked img").click(function(){
+							if($(this).attr("src")=="img/check.png"){
+							$(this).attr("src","img/checked.png")
+							}
+							else{$(this).attr("src","img/check.png")}
+						})
+					})
+				</script>
+	</body>
+	
+</html>

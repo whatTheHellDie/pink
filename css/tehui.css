@@ -1,0 +1,23 @@
+img{display: inline-block;}
+
+
+	
+.greyline{height: .18rem;background: #f5f5f5;}
+
+
+/*系列*/
+.xilie .title {border-left: .06rem solid #EA5F7D;font-size: .25rem;color: #333;line-height: .7rem;border-bottom: 2px solid #f3c1c2;}
+.xilie .title span{padding-left: .14rem;}
+.xilie .title ul{float: right;font-size: .14rem;padding-right: .06rem;}
+.xilie .title li{float: left;}
+.xilie .title li a{color: #808080;font-size: .14rem;padding-right: .08rem;padding-left: .08rem;}
+.xilie .tu{width: 6.4rem;height: 4.8rem;display: block;}
+.xilie .content{padding-left: .18rem;}
+.xilie .content_left{float: left;}
+.xilie .content .content_left .name{font-size: .21rem;color: #333;    padding-top: .11rem;}
+.xilie .content .content_left .my{font-size: .14rem;color: #808080;    padding-top: .04rem;}
+.content_right{float: right;}
+.content_right .shoucang{width: 1.2rem;height: .89rem;float: right;}
+.content_right span{display:block ;font-size: .21rem;width: 1.19rem;height: .89rem;background: #f05654;color: #fff;text-align: center;line-height: .89rem;float: right;}
+
+

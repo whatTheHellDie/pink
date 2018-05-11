@@ -1,0 +1,14 @@
+.login_logo{width: 5.31rem;height: 3.61rem;margin: 0 auto;padding: .6rem 0 .88rem;}
+.login_logo img{width: 5.31rem;height: 3.61rem;}
+.user {padding-left: .83rem;margin-bottom: .28rem;height: .6rem;}
+.user input{    position: relative;
+    top: -.7rem;font-size:.16rem;width: 4.74rem;height: .6rem;box-sizing: border-box;padding-left: .87rem;background: #e6e6e6;border-radius: .2rem;border: none;}
+
+.checked{font-size: .16rem;color: #808080;margin-left: .83rem;}
+.checked img{width: .33rem;height: .3rem;display: inline-block;    vertical-align: middle;}
+.checked span{position: relative;top: .01rem;left: .08rem;}
+
+.login .button{display: block;width: 4.76rem;height: .6rem;font-size: .16rem;color: #fff;background: #EA5F7D;text-align: center;line-height: .6rem;border-radius:.12rem ;margin: .3rem auto .11rem;}
+.second{color: #999999;font-size: .16rem;width: 1.34rem;margin: 0 auto;}
+.second a{color: #999999;}
+.bottom_tip{font-size: .21rem;color: #EA5F7D;    padding:0 .83rem;height: .27rem;}

@@ -1,0 +1,20 @@
+img{display: inline-block;}
+
+		.add_address{width: 5.94rem;height: .72rem;
+		text-align: center;font-size: .21rem;
+		line-height: .72rem;
+		background: #EBEBEB;
+		color: #333;display: block;margin: .48rem auto;}
+		/*勾*/
+.checked{font-size: .16rem;color: #808080;float: left;}
+.checked img{width: .33rem;height: .3rem;display: inline-block;    vertical-align: middle;padding: 0 .18rem;padding-top: .75rem;}
+.checked span{position: relative;top: .01rem;left: .08rem;}
+
+
+/*联系人*/
+.connact_list{width: 5.92rem;margin: .5rem auto;font-size: .19rem;color: #333;}
+.connact_list .content{float: left;padding-top: .28rem;}
+.connact_list .content div{padding-bottom: .11rem;}
+
+.connact_list li{background: #ebebeb;height: 1.79rem;position: relative;margin-bottom: .2rem;}
+.connact_list .del{width: .22rem;height: .27rem;position: absolute;bottom: .23rem;right: .24rem;}

@@ -1,0 +1,17 @@
+img{display: inline-block;}
+
+/*我的*/
+	
+.m_info{padding-top: .05rem;padding-bottom:.58rem ;}
+
+.m_info div{font-size: .25rem;color: #333;text-align: center;padding-top: .18rem;}
+.m_info span{color: #808080;}
+.my_list{padding-bottom: .2rem;}
+.my_list{font-size: .21rem;color: #333;}
+.my_list li{border-top: 2px solid #f47983;line-height: .7rem;}
+
+.my_list li:last-child{border-bottom: 2px solid #f47983;}
+.my_list .li_img{padding: 0 .07rem 0 .18rem;width: .34rem;height: .34rem;vertical-align: middle;}
+.my_list li:first-child .li_img{position: relative;top: -.02rem;}
+.my_list .turn{padding-top: .2rem;float: right;padding-right: .18rem;width: .17rem;height: .33rem;}
+.my_list a{color: inherit;display: block;}

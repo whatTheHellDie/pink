@@ -1,0 +1,92 @@
+.wrap{padding-bottom: 0;}
+img{display:inline-block;}
+.clearline{border-bottom: none !important;}
+.item{position: relative;border-bottom: 2px solid #fbd2d6;}
+.item img{width: 1.2rem;height: 1.2rem;padding: .28rem .18rem .24rem .58rem;float: left;}
+.item .content{float: left;width: 3.8rem;}
+.item .content .title{font-size: .21rem;color: #EA5F7D;padding-top: .28rem;}
+.item .content .second{font-size: .14rem;color: #f47983;padding-top: .11rem;}
+.item .content .price{font-size: .19rem;color: #f20c00;padding-top: .08rem;}
+.item .content .number{bottom: .18rem;position: absolute;right: .3rem;color: #EA5F7D;font-size: .25rem;}
+/*收货地址*/
+.shouhuo{border-bottom: 2px solid #FBD2D6;padding-top: .13rem;color: #EA5F7D;font-size:.21rem;}
+.shouhuo img{padding: 0 .09rem 0 .18rem;width: .38rem;height: .37rem;vertical-align: middle;}
+.shouhuo a{font-size: .19rem;color: #b3b3b3;float: right;padding-right: .18rem;}
+.address{padding-left: .54rem;padding-top: .08rem;color: #808080;font-size: .19rem;}
+.address .number{padding-left: .3rem;}
+.address .content{padding-top: .1rem;padding-bottom: .29rem;}
+/*配送时间*/
+.peisong input{    
+	color: #333;
+    font-size: .21rem;
+    width: 3.67rem;
+    height: .6rem;
+    box-sizing: border-box;
+    padding-left: .48rem;
+    background: #e6e6e6;
+    border-radius: .2rem;
+    border: none;
+    margin-left: .06rem;
+    margin-bottom: .18rem;
+    }
+.peisong div{position: relative;padding-left: .5rem;}
+.peisong span{width: 1.48rem;text-align: right;display: inline-block;}
+.peisong .down{position: absolute;     left: 5rem;
+    top: .25rem;width: .24rem;height: .12rem;}
+.peisong select{position: absolute;    right: .63rem;
+    width: 3.67rem;
+    height: .6rem;opacity: 0;}
+/*配送方式*/
+.peisong_way{padding-bottom: .28rem;padding-top: .18rem;}
+.checked{font-size: .21rem;color: #808080;margin-left: .83rem;}
+.checked .check_img{width: .33rem;height: .3rem;display: inline-block;    vertical-align: middle;}
+.checked span{position: relative;top: .04rem;left: .08rem;}
+.checked .tips{font-size: .14rem;color: #EA5F7D;margin-left: .1rem;}
+
+/*支付方式*/
+.pay_way {}
+.pay_way .checked{padding-bottom: .27rem;color: #333;}
+.pay_way .pay_img{width: .3rem;height: .3rem;}
+.pay_way .pay_img1{width: .5rem;}
+.pay_way .tips{color: #808080;font-size: .21rem;}
+
+/*优惠券使用*/
+.youhui input{    
+	color: #333;
+    font-size: .21rem;
+    width: 3.67rem;
+    height: .6rem;
+    box-sizing: border-box;
+    padding-left: .11rem;
+    background: #e6e6e6;
+    border-radius: .2rem;
+    border: none;
+    margin-left: .06rem;
+    margin-bottom: .18rem;
+    }
+.youhui div{position: relative;padding-left: .5rem;}
+.youhui span{width: 1.48rem;text-align: right;display: inline-block;}
+.youhui .down{position: absolute;     left: 5rem;
+    top: .25rem;width: .24rem;height: .12rem;}
+.youhui select{position: absolute;    right: .63rem;
+    width: 3.67rem;
+    height: .6rem;opacity: 0;}
+    
+/*订单备注*/
+.beizhu{margin-top: .16rem;}
+.beizhu textarea{margin-bottom: .46rem;border: 2px solid #cccccc;margin-left: .24rem;width: 5.92rem;height: 1.18rem;border-radius: .12rem;background: #f7f7f7;}
+
+/*结算*/
+.checkout{width: 5.92rem;height: 2.35rem;
+border: 2px solid #EA5F7D;
+border-radius: .12rem;margin-left: .24rem;background: #f7f7f7;margin-bottom: .6rem;}
+.checkout li{padding-left: .13rem;border-bottom: 2px solid #FBD9de;font-size: .21rem;line-height: .56rem;}
+.checkout li:last-child{border-bottom: none;}
+.checkout .title{color: #333;}
+.checkout .price{float: right;padding-right: .82rem;}
+.checkout .total_price{font-size: .28rem;padding-right: .27rem;float: right;}
+
+.tijiao{display: block;width: 5.92rem;height: .6rem;line-height: .6rem;color: #fff;
+margin: 0 auto;font-size: .27rem;background: #EA5F7D;text-align: center;border-radius:.12rem ;}
+
+
